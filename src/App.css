@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  /* Changes the font family of the program */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main-container {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+html,
+body {
+  /* Changes the color of the background */
+  background-color: #1a1a1a;
+  /* Changes the color of the lines of the counter, the counter and the text */
+  color: rgb(255, 255, 255);
+}
